@@ -1,18 +1,19 @@
 ---
-description: Support versioned and unversioned documentation in multiple instances.
+description:
+  Support versioned and unversioned documentation in multiple instances.
 sidebar_position: 2
 ---
 
 # Support versioned and unversioned docs
 
-You might need part of your documentation to be versioned and another part unversioned.
-Docusaurus supports multi-instance docs since the docs functionality is a plugin itself and can be
-re-used multiple times.
+You might need part of your documentation to be versioned and another part
+unversioned. Docusaurus supports multi-instance docs since the docs
+functionality is a plugin itself and can be re-used multiple times.
 
-For example, configure multiple doc instances with their own versioning systems by modifying
-`docusaurus.config.js`:
+For example, configure multiple doc instances with their own versioning systems
+by modifying `docusaurus.config.js`:
 
-```js title="docusaurus.config.js" {6-11,18-24}
+```js title="docusaurus.config.js"
 module.exports = {
   presets: [
     [
@@ -43,5 +44,6 @@ module.exports = {
 };
 ```
 
-See the [Docusaurus multi-instance documentation](https://docusaurus.io/docs/docs-multi-instance#use-cases)
+See the
+[Docusaurus multi-instance documentation](https://docusaurus.io/docs/docs-multi-instance#use-cases)
 for detailed instructions on setting up versioned and unversioned docs.

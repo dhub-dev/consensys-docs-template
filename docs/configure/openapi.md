@@ -6,17 +6,20 @@ sidebar_label: OpenAPI docs
 
 # Configure OpenAPI docs
 
-This template repository uses the [Redocusaurus](https://redocusaurus.vercel.app/) plugin to include
-OpenAPI documentation directly into the doc site.
-With this plugin, you can manage OpenAPI docs within Docusaurus without linking to a separate site
-and incurring more fragmentation in your doc system.
+This template repository uses the
+[Redocusaurus](https://redocusaurus.vercel.app/) plugin to include OpenAPI
+documentation directly into the doc site. With this plugin, you can manage
+OpenAPI docs within Docusaurus without linking to a separate site and incurring
+more fragmentation in your doc system.
 
 <!-- markdown-link-check-disable-next-line -->
+
 See the [demo OpenAPI docs using Redocusaurus](/api).
 
 ## Configure Redocusaurus
 
-The following is an example of how to configure the Redocusaurus plugin in `docusaurus.config.js`:
+The following is an example of how to configure the Redocusaurus plugin in
+`docusaurus.config.js`:
 
 ```js title="docusaurus.config.js"
 const redocusaurus = [
@@ -56,7 +59,8 @@ To remove the Redocusaurus plugin:
 
 1. In your project repository, run `npm uninstall redocusaurus`.
 
-2. Remove the [Redocusaurus configuration](#configure-redocusaurus) from `docusaurus.config.js`.
+2. Remove the [Redocusaurus configuration](#configure-redocusaurus) from
+   `docusaurus.config.js`.
 
-3. Under the `const config` object in `docusaurus.config.js`, remove the references to Redocusaurus
-   from the `plugins` and `themes` key.
+3. Under the `const config` object in `docusaurus.config.js`, remove the
+   references to Redocusaurus from the `plugins` and `themes` key.

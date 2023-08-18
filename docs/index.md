@@ -4,35 +4,39 @@ title: Overview
 
 # ConsenSys documentation guide
 
-Welcome to the ConsenSys documentation guide.
-This guide contains information about contributing to ConsenSys developer documentation sites and
-creating new documentation sites.
+Welcome to the ConsenSys documentation guide. This guide contains information
+about contributing to ConsenSys developer documentation sites and creating new
+documentation sites.
 
 ## Overview
 
-Each ConsenSys developer product has a documentation site, maintained by the [ConsenSys developer
-documentation team](https://consensyssoftware.atlassian.net/wiki/spaces/PEG/pages/398159216798/Documentation+Pliny)
-and/or a product team.
-The docs use a [docs-as-code](https://www.writethedocs.org/guide/docs-as-code/) approach and are
-mostly open source, empowering developers and community members to contribute to the docs alongside
-the docs team.
+Each ConsenSys developer product has a documentation site, maintained by the
+[ConsenSys developer documentation team](https://consensyssoftware.atlassian.net/wiki/spaces/PEG/pages/398159216798/Documentation+Pliny)
+and/or a product team. The docs use a
+[docs-as-code](https://www.writethedocs.org/guide/docs-as-code/) approach and
+are mostly open source, empowering developers and community members to
+contribute to the docs alongside the docs team.
 
-This guide aims to help writers, developers, product managers, and community members [contribute to
-the existing doc sites](contribute) and [create new doc sites](create).
+This guide aims to help writers, developers, product managers, and community
+members [contribute to the existing doc sites](contribute) and
+[create new doc sites](create).
 
 :::note
+
 This guide assumes familiarity with Git, GitHub, and Markdown.
+
 :::
 
-Most of the doc sites are built using the [Docusaurus](https://docusaurus.io/) static site generator
-and hosted on [Vercel](https://vercel.com/).
+Most of the doc sites are built using the [Docusaurus](https://docusaurus.io/)
+static site generator and hosted on [Vercel](https://vercel.com/).
 
 ## List of documentation sites
 
-The following table shows the full list of developer documentation sites supported by ConsenSys.
+The following table shows the full list of developer documentation sites
+supported by ConsenSys.
 
 | Doc site                                                                | GitHub repository                                                                   | Site platform | Hosting platform | Description                                                                                                                                                              |
-|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------|---------------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [Teku](https://docs.teku.consensys.net/)                                | [`consensys/doc.teku`](https://github.com/consensys/doc.teku)                       | Docusaurus    | Vercel           | Maintained by the docs team.                                                                                                                                             |
 | [Hyperledger Besu](https://besu.hyperledger.org/)                       | [`hyperledger/besu-docs`](https://github.com/hyperledger/besu-docs)                 | Docusaurus    | GitHub Pages     | Maintained by the docs team. This is a Hyperledger project and has its own [Besu docs contribution guidelines](https://wiki.hyperledger.org/display/BESU/Documentation). |
 | [Web3Signer](https://docs.web3signer.consensys.net/)                    | [`consensys/web3signer`](https://github.com/ConsenSys/web3signer)                   | Docusaurus    | Vercel           | Maintained by the docs team.                                                                                                                                             |
